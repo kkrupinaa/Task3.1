@@ -1,5 +1,5 @@
 div:nth-child(1){
-    align-self: flex-start;
+    align-self: self-start;
 }
 div:nth-child(2){
     align-self: center;
@@ -8,7 +8,7 @@ div:nth-child(4){
     align-self: center;
 }
 div:nth-child(5){
-    align-self: flex-start;
+    align-self: self-start;
 }
 html,
 body,
@@ -17,6 +17,7 @@ body,
     display: flex;
     height: 300px;
     width: 700px;
+    flex-direction: row;
     justify-content: space-between;
 }
 div{

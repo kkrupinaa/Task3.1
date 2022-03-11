@@ -19,10 +19,11 @@ body,
     width: 700px;
 }
 div{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border: 5px solid #DAA520;
-    border-radius: 50%;
+    border-radius: 100px 100px 100px 100px;
     align-self:flex-end;
     background:#DAA520;
+    margin: 20px
 }

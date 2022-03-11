@@ -1,5 +1,11 @@
+html,
+body,
+#root{
+    height: 100%;
+    margin:0;
+}
 div:nth-child(1){
-    align-self: flex-start;
+    align-self: self-start;
 }
 div:nth-child(2){
     align-self: center;
@@ -8,22 +14,22 @@ div:nth-child(4){
     align-self: center;
 }
 div:nth-child(5){
-    align-self: flex-start;
+    align-self: self-start;
 }
 html,
 body,
 .flex-container
 {
-    display: flex;
     height: 300px;
     width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 div{
-    height: 80px;
-    width: 80px;
-    border: 5px solid #DAA520;
-    border-radius: 100px 100px 100px 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
     align-self:flex-end;
     background:#DAA520;
-    margin: 20px
 }

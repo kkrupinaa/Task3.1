@@ -17,6 +17,7 @@ body,
     display: flex;
     height: 300px;
     width: 700px;
+    margin: 20px;
 }
 div{
     height: 80px;
